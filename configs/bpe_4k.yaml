@@ -14,12 +14,12 @@ data:
         max_sent_length: 100
         # either use a vocabulary limit:
         # or (= not both!) a file with a vocabulary built before starting the training:
-        voc_file : "bpe/vocab.joint"
+        voc_file : "bpe2/vocab.joint"
         tokenizer_type: "subword-nmt"
         tokenizer_cfg:
             pretokenizer: "none"
             num_merges: 4000
-            codes: "bpe/codes.bpe"
+            codes: "bpe2/codes.bpe"
     trg: 
         lang: "nl"
         level: "bpe"
@@ -27,12 +27,12 @@ data:
         max_sent_length: 100
         # either use a vocabulary limit:
         # or (= not both!) a file with a vocabulary built before starting the training:
-        voc_file : "bpe/vocab.joint"
+        voc_file : "bpe2/vocab.joint"
         tokenizer_type: "subword-nmt"
         tokenizer_cfg:
             pretokenizer: "none"
             num_merges: 4000
-            codes: "bpe/codes.bpe"
+            codes: "bpe2/codes.bpe"
 
 testing:
     beam_size: 5
