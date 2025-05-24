@@ -3,29 +3,29 @@ joeynmt_version: "2.0.0"
 
 
 data:
-    train: "?"
-    dev:   "?"
-    test:  "?"
+    train: "data/train.en-nl.subsample"
+    dev:   "data/dev.en-nl"
+    test:  "data/test.en-nl"
     dataset_type: "plain"
     src:
-        lang: "?"
+        lang: "en"
         level: "?"
         lowercase: False
         max_sent_length: 100
         # either use a vocabulary limit:
-        voc_limit: ?
+        voc_limit: 2000
         # or (= not both!) a file with a vocabulary built before starting the training:
         voc_file : "?"
         tokenizer_type: "?"
         tokenizer_cfg:
             ?
     trg: 
-        lang: "?"
+        lang: "nl"
         level: "?"
         lowercase: False
         max_sent_length: 100
         # either use a vocabulary limit:
-        voc_limit: ?
+        voc_limit: 2000
         # or (= not both!) a file with a vocabulary built before starting the training:
         voc_file : "?"
         tokenizer_type: "?"
