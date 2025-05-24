@@ -56,7 +56,7 @@ training:
     validation_freq: 500
     logging_freq: 100
     eval_metric: "bleu"
-    model_dir: "models/bpe_2k"
+    model_dir: "models/bpe_4k"
     overwrite: False
     shuffle: True
     use_cuda: True
