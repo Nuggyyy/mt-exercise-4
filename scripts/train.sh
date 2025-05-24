@@ -17,7 +17,7 @@ SECONDS=0
 
 logs=$base/logs
 
-model_name=word_2k
+model_name=bpe_2k
 
 mkdir -p $logs
 

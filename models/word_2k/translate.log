@@ -1,0 +1,66 @@
+2025-05-24 14:04:54,485 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-24 14:04:54,521 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-24 14:04:54,575 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-24 14:04:54,752 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\word_2k\24000.ckpt.
+2025-05-24 14:04:54,769 - INFO - joeynmt.tokenizers - en tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:04:54,770 - INFO - joeynmt.tokenizers - nl tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:04:54,774 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2025-05-24 14:06:31,119 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-24 14:06:31,156 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-24 14:06:31,203 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-24 14:06:31,352 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\word_2k\24000.ckpt.
+2025-05-24 14:06:31,370 - INFO - joeynmt.tokenizers - en tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:06:31,370 - INFO - joeynmt.tokenizers - nl tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:06:31,373 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2025-05-24 14:06:40,666 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-24 14:06:40,702 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-24 14:06:40,748 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-24 14:06:40,891 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\word_2k\24000.ckpt.
+2025-05-24 14:06:40,908 - INFO - joeynmt.tokenizers - en tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:06:40,908 - INFO - joeynmt.tokenizers - nl tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:06:40,913 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2025-05-24 14:08:30,357 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-24 14:08:30,393 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-24 14:08:30,443 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-24 14:08:30,604 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\word_2k\24000.ckpt.
+2025-05-24 14:08:30,622 - INFO - joeynmt.tokenizers - en tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:08:30,622 - INFO - joeynmt.tokenizers - nl tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:08:30,625 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2025-05-24 14:08:30,625 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=5, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-24 14:08:55,058 - INFO - joeynmt.prediction - Generation took 24.4224[sec]. (No references given)
+2025-05-24 14:13:00,786 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-24 14:13:00,822 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-24 14:13:00,866 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-24 14:13:01,017 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\word_2k\24000.ckpt.
+2025-05-24 14:13:01,034 - INFO - joeynmt.tokenizers - en tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:13:01,035 - INFO - joeynmt.tokenizers - nl tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:13:01,039 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2025-05-24 14:13:01,039 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=5, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-24 14:13:25,462 - INFO - joeynmt.prediction - Generation took 24.4118[sec]. (No references given)
+2025-05-24 14:13:43,909 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-24 14:13:43,946 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-24 14:13:43,991 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-24 14:13:44,121 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\word_2k\24000.ckpt.
+2025-05-24 14:13:44,140 - INFO - joeynmt.tokenizers - en tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:13:44,140 - INFO - joeynmt.tokenizers - nl tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:13:44,144 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2025-05-24 14:13:44,144 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=5, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-24 14:14:07,491 - INFO - joeynmt.prediction - Generation took 23.3378[sec]. (No references given)
+2025-05-24 14:15:25,223 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-24 14:15:25,259 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-24 14:15:25,304 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-24 14:15:25,448 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\word_2k\24000.ckpt.
+2025-05-24 14:15:25,468 - INFO - joeynmt.tokenizers - en tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:15:25,469 - INFO - joeynmt.tokenizers - nl tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:15:25,471 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2025-05-24 14:15:25,472 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=5, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-24 14:15:49,771 - INFO - joeynmt.prediction - Generation took 24.2908[sec]. (No references given)
+2025-05-24 14:17:42,005 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-24 14:17:42,042 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-24 14:17:42,091 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-24 14:17:42,267 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\word_2k\24000.ckpt.
+2025-05-24 14:17:42,285 - INFO - joeynmt.tokenizers - en tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:17:42,285 - INFO - joeynmt.tokenizers - nl tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2025-05-24 14:17:42,289 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2025-05-24 14:17:42,289 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=5, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-24 14:18:01,376 - INFO - joeynmt.prediction - Generation took 19.0756[sec]. (No references given)

@@ -10,8 +10,8 @@ translations=$base/translations
 
 mkdir -p $translations
 
-src=?
-trg=?
+src=en
+trg=nl
 
 
 num_threads=4
@@ -21,7 +21,7 @@ device=0
 
 SECONDS=0
 
-model_name=?
+model_name=word_2k
 
 echo "###############################################################################"
 echo "model_name $model_name"
@@ -30,7 +30,7 @@ translations_sub=$translations/$model_name
 
 mkdir -p $translations_sub
 
-CUDA_VISIBLE_DEVICES=$device OMP_NUM_THREADS=$num_threads python -m joeynmt translate $configs/$model_name.yaml < $data/test.$src > $translations_sub/test.$model_name.$trg
+PYTHONIOENCODING=utf-8 CUDA_VISIBLE_DEVICES=$device OMP_NUM_THREADS=$num_threads python -m joeynmt translate $configs/$model_name.yaml < $data/test.en-nl.$src > $translations_sub/test.$model_name.$trg
 
 # compute case-sensitive BLEU 
 
