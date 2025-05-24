@@ -21,7 +21,7 @@ device=0
 
 SECONDS=0
 
-model_name=word_2k
+model_name=bpe_4k
 
 echo "###############################################################################"
 echo "model_name $model_name"
@@ -34,7 +34,16 @@ PYTHONIOENCODING=utf-8 CUDA_VISIBLE_DEVICES=$device OMP_NUM_THREADS=$num_threads
 
 # compute case-sensitive BLEU 
 
-cat $translations_sub/test.$model_name.$trg | sacrebleu $data/test.$trg
+#cat $translations_sub/test.$model_name.$trg | sacrebleu $data/test.$trg
+
+# Detokenize
+sacremoses -l $trg detokenize \
+    < $translations_sub/test.$model_name.$trg \
+    > $translations_sub/test.$model_name.detok.$trg
+
+# Compute BLEU
+echo "BLEU score:"
+sacrebleu $data/test.$trg -i $translations_sub/test.$model_name.detok.$trg
 
 
 echo "time taken:"
