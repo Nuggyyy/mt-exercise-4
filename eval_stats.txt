@@ -1,6 +1,39 @@
 bpe_4k with detokenization:
 
+BLEU score:
+{
+ "name": "BLEU",
+ "score": 14.6,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+ "verbose_score": "50.5/21.8/11.2/6.0 (BP = 0.883 ratio = 0.889 hyp_len = 27305 ref_len = 30709)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.5.1"
+}
+time taken:
+270 seconds
 
+bpe_4k without detokenization:
+
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.
+{
+ "name": "BLEU",
+ "score": 14.8,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+ "verbose_score": "50.5/21.9/11.4/6.1 (BP = 0.887 ratio = 0.893 hyp_len = 27422 ref_len = 30709)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.5.1"
+}
+time taken:
+264 seconds
 
 bpe_2k with detokenization:
 
