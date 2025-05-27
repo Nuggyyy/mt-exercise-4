@@ -56,3 +56,83 @@
 2025-05-25 18:38:06,257 - INFO - joeynmt.prediction - Ready to decode. (device: cpu, n_gpu: 0, use_ddp: False, fp16: False)
 2025-05-25 18:38:06,289 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=5, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
 2025-05-25 18:42:26,435 - INFO - joeynmt.prediction - Generation took 260.1447[sec].
+2025-05-27 20:55:32,561 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-27 20:55:32,746 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-27 20:55:32,832 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-27 20:55:33,035 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\bpe_4k\35000.ckpt.
+2025-05-27 20:55:33,092 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:55:33,093 - INFO - joeynmt.tokenizers - nl tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:55:33,097 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-27 20:56:02,979 - INFO - joeynmt.prediction - Generation took 29.8627[sec]. (No references given)
+2025-05-27 20:56:07,669 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-27 20:56:07,850 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-27 20:56:07,906 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-27 20:56:08,037 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\bpe_4k\35000.ckpt.
+2025-05-27 20:56:08,067 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:56:08,067 - INFO - joeynmt.tokenizers - nl tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:56:08,071 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=2, beam_alpha=-1, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-27 20:56:32,457 - INFO - joeynmt.prediction - Generation took 24.3688[sec]. (No references given)
+2025-05-27 20:56:35,651 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-27 20:56:35,830 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-27 20:56:35,881 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-27 20:56:36,007 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\bpe_4k\35000.ckpt.
+2025-05-27 20:56:36,039 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:56:36,040 - INFO - joeynmt.tokenizers - nl tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:56:36,043 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=3, beam_alpha=-1, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-27 20:57:05,493 - INFO - joeynmt.prediction - Generation took 29.4340[sec]. (No references given)
+2025-05-27 20:57:08,547 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-27 20:57:08,729 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-27 20:57:08,780 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-27 20:57:08,903 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\bpe_4k\35000.ckpt.
+2025-05-27 20:57:08,935 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:57:08,935 - INFO - joeynmt.tokenizers - nl tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:57:08,938 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=4, beam_alpha=-1, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-27 20:57:41,916 - INFO - joeynmt.prediction - Generation took 32.9624[sec]. (No references given)
+2025-05-27 20:57:44,982 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-27 20:57:45,162 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-27 20:57:45,219 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-27 20:57:45,359 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\bpe_4k\35000.ckpt.
+2025-05-27 20:57:45,392 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:57:45,392 - INFO - joeynmt.tokenizers - nl tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:57:45,396 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=5, beam_alpha=-1, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-27 20:58:24,971 - INFO - joeynmt.prediction - Generation took 39.5611[sec]. (No references given)
+2025-05-27 20:58:28,039 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-27 20:58:28,230 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-27 20:58:28,284 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-27 20:58:28,412 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\bpe_4k\35000.ckpt.
+2025-05-27 20:58:28,443 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:58:28,443 - INFO - joeynmt.tokenizers - nl tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:58:28,448 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=6, beam_alpha=-1, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-27 20:59:16,006 - INFO - joeynmt.prediction - Generation took 47.5459[sec]. (No references given)
+2025-05-27 20:59:19,238 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-27 20:59:19,423 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-27 20:59:19,483 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-27 20:59:19,618 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\bpe_4k\35000.ckpt.
+2025-05-27 20:59:19,654 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:59:19,654 - INFO - joeynmt.tokenizers - nl tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 20:59:19,657 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=7, beam_alpha=-1, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-27 21:00:16,552 - INFO - joeynmt.prediction - Generation took 56.8790[sec]. (No references given)
+2025-05-27 21:00:19,657 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-27 21:00:19,838 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-27 21:00:19,885 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-27 21:00:20,022 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\bpe_4k\35000.ckpt.
+2025-05-27 21:00:20,056 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 21:00:20,056 - INFO - joeynmt.tokenizers - nl tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 21:00:20,061 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=8, beam_alpha=-1, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-27 21:01:19,584 - INFO - joeynmt.prediction - Generation took 59.5084[sec]. (No references given)
+2025-05-27 21:01:22,695 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-27 21:01:22,874 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-27 21:01:22,929 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-27 21:01:23,057 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\bpe_4k\35000.ckpt.
+2025-05-27 21:01:23,089 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 21:01:23,089 - INFO - joeynmt.tokenizers - nl tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 21:01:23,095 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=9, beam_alpha=-1, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-27 21:02:30,626 - INFO - joeynmt.prediction - Generation took 67.5173[sec]. (No references given)
+2025-05-27 21:02:33,766 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-27 21:02:33,948 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-27 21:02:34,006 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-27 21:02:34,132 - INFO - joeynmt.helpers - Load model from C:\Users\seraf\repositories\mt-exercise-4\models\bpe_4k\35000.ckpt.
+2025-05-27 21:02:34,163 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 21:02:34,164 - INFO - joeynmt.tokenizers - nl tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-27 21:02:34,167 - INFO - joeynmt.prediction - Predicting 1777 example(s)... (Beam search with beam_size=10, beam_alpha=-1, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-27 21:03:50,300 - INFO - joeynmt.prediction - Generation took 76.1169[sec]. (No references given)
