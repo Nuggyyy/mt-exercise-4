@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load results
-results = pd.read_csv("results/beam_search/results.tsv", sep="\t")
+results = pd.read_csv("/Users/merterol/Desktop/MT ex4/mt-exercise-4/results/beam_search/results.tsv", sep="\t")
 
 # Plot BLEU vs Beam Size
 plt.figure(figsize=(10, 4))
