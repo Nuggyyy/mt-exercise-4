@@ -88,6 +88,7 @@ Once setup is complete, use the instructions in the exercise PDF to run training
        - beam_search_experiment.sh
 
 | use BPE | vocabulary size | BLEU |
+| :-----: | :-------------: | :--: | 
 | no | 2000 | 7.0 |
 | yes | 2000 | 14.1 |
 | yes | 4000 | 14.8 |
