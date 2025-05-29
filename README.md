@@ -87,6 +87,14 @@ Once setup is complete, use the instructions in the exercise PDF to run training
        - 1b.sh (the full script to run for the BPE training part of exercise 1)
        - beam_search_experiment.sh
 
+# important files
+- eval_stats.txt contains the BLEU-score evaluation output
+- results/beamsearch contains a .png of the computed graph from the values in results.tsv for exercise 2
+- bpe/ and bpe2/ contain the BPE vocab aand code files for the training of the BPE models
+- sampled_data/ is the actual data used for training the models
+- translations/ contains the translations of all the models
+
+# table for exercise 1
 | use BPE | vocabulary size | BLEU |
 | :-----: | :-------------: | :--: | 
 | no | 2000 | 7.0 |
