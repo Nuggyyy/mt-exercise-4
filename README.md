@@ -74,3 +74,20 @@ Once setup is complete, use the instructions in the exercise PDF to run training
 
   Always activate your virtual environment before running any training or evaluation steps.
 
+
+# Changes
+- CUDA viability in several shell scripts
+- encoding specification to utf-8 due to encoding issues
+- implementation of two python scripts
+       - subsample.py to subsample 100k sentence pairs from the data
+       - plot_beam_search.py to plot the results from the beam search experiment
+- implementation of several shell scripts
+       - subsample.sh
+       - bpe.sh
+       - 1b.sh (the full script to run for the BPE training part of exercise 1)
+       - beam_search_experiment.sh
+
+| use BPE | vocabulary size | BLEU |
+| no | 2000 | 7.0 |
+| yes | 2000 | 14.1 |
+| yes | 4000 | 14.8 |
